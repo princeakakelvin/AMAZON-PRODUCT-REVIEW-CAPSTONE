@@ -1,4 +1,5 @@
 # AMAZON-PRODUCT-REVIEW-CAPSTONE
+
 Amazone Product Review Analysis Capstone Project.
 
 ## Project Overview
@@ -79,20 +80,29 @@ Analyze Amazon product review data to answer specific business questions using E
  - Slicers for interactive filtering by category and price range.
 
 ## Key Insights
-Highest Average Discount: [Electronics
-[![p](https://github.com/user-attachments/assets/8729d212-ae92-4ca7-bd89-a761e1b1aeab)](https://github.com/user-attachments/assets/49072d3c-bfd3-46e5-9b13-cf3ea17f043c)
-] with an average discount of 50%
+Highest Average Discount: [![pppppp](https://github.com/user-attachments/assets/642f90e7-b2f8-4310-9bfa-5b9097567276)
+] with an average discount of 58%.
 
 Most Listed Products: [![pp](https://github.com/user-attachments/assets/9af35dde-9c10-4b3e-8980-6209c1538aa7)
 ] has the highest number of products.
 
-Most Reviewed Product: [Product Name] with [X] reviews.
+Most Reviewed Product: [![ppp](https://github.com/user-attachments/assets/643d5b64-8772-4958-a720-421f8143d0ae)
+] with [14208406
+![image](https://github.com/user-attachments/assets/b1c50997-7817-4e11-bc95-788863c6c999)
+] reviews.
 
-Highest Rated Product: [Product Name] with an average rating of [Y].
+Highest Rated Product: [![pppp](https://github.com/user-attachments/assets/12d67d2b-d488-4af0-8dc0-6a925af5c9f8)
+] with an average rating of [5].
 
-Products with ≥50% Discount: [Number] products, mostly in [Category].
+Products with ≥50% Discount: [![p](https://github.com/user-attachments/assets/8729d212-ae92-4ca7-bd89-a761e1b1aeab)] products, mostly in [HomeImprovement
+![image](https://github.com/user-attachments/assets/2b9661f2-33f5-4fca-9c2d-854960e7541c)
+].
 
-Potential Revenue: [Category Name] could generate up to ₹[X] in revenue.
+Potential Revenue: [Electronics
+![image](https://github.com/user-attachments/assets/cae36aaa-164a-42b1-88e7-9610cd63662a)
+]could generate up to ₹[ ₹ 91,323,918,321 
+![image](https://github.com/user-attachments/assets/b51c8f95-fc2d-4ad5-93de-148b9513a624)
+] in revenue.
 
 Rating vs. Discount: [Brief summary of correlation or lack thereof].
 
