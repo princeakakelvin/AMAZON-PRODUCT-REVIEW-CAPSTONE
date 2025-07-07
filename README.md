@@ -10,12 +10,12 @@ Dataset: 1,465 rows × 16 columns of Amazon product and review data.
 
 Tools Used: Microsoft Excel (Pivot Tables, Formulas, Dashboard), GitHub for portfolio hosting.
 
-## Repository Structure
-text
-amazon-product-review-analysis/
-│
-├── Amazon-case-study.xlsx         # Main analysis and dashboard file
-│   ├── dashboard-overview.png
+## Repository Structure 
+
+## (Amazon-case-study.xlsx)[[Amazon case study Raw data.xlsx](https://github.com/user-attachments/files/21105616/Amazon.case.study.Raw.data.xlsx)
+]         # (Main analysis and dashboard file)[[AMAZON-PRODUCT-REVIEW-ANALYSIS.xlsx](https://github.com/user-attachments/files/21105452/AMAZON-PRODUCT-REVIEW-ANALYSIS.xlsx)
+]
+
 ### Case Study Instruction. 
 
 ## Objective:
@@ -102,39 +102,25 @@ Potential Revenue: [Electronics
 ![image](https://github.com/user-attachments/assets/b51c8f95-fc2d-4ad5-93de-148b9513a624)
 ] in revenue.
 
-Rating vs. Discount: [Brief summary of correlation or lack thereof].
+ ## Dashboard Preview
+(![Dashboard](https://github.com/user-attachments/assets/e1a74191-5808-404a-bbdb-169449103fb5)
+)
 
-Top 5 Products (Rating × Reviews): [List of product names/IDs].
-
-📊 Dashboard Preview
-(Insert screenshots or thumbnails of your Excel dashboard here, e.g. in a /screenshots folder)
-
-🛠 How to Use This Repository
-Download or clone the repository.
-
-Open Amazon-case-study.xlsx in Microsoft Excel.
-
-Explore the Dashboard sheet for interactive charts and key metrics.
-
-Review the Pivot Table sheets for detailed summaries.
-
-Check the README for documentation and insights.
-
-📚 Methodology Details
-Key Calculated Columns
-Discount Percentage:
+ ## Methodology Details
+###### Key Calculated Columns
+ - Discount Percentage:
 =(actual_price - discounted_price)/actual_price
 
-Potential Revenue:
+ - Potential Revenue:
 =actual_price * rating_count
 
-Combined Score (for top products):
+ - Combined Score (for top products):
 =rating * rating_count
 
-Price Range Bucket:
-Used Excel's IF or VLOOKUP to assign price bands.
+ - Price Range Bucket:
+Used Excel's IF function
 
-Pivot Table Examples
+### Pivot Table Examples
 Category vs. Average Discount:
 Rows: Category | Values: Average of Discount Percentage
 
@@ -147,7 +133,7 @@ Rows: Category | Values: Sum of Rating Count
 Rating Distribution:
 Rows: Rating | Values: Count of Product ID
 
-📝 Recommendations
+## Recommendations
 Focus marketing on categories with high discounts and high ratings.
 
 Investigate categories with low ratings but high review counts for potential improvements.
@@ -155,8 +141,5 @@ Investigate categories with low ratings but high review counts for potential imp
 Leverage top-performing products in promotions.
 
 Monitor the impact of large discounts on ratings to avoid negative perceptions.
-
-🏷 Tags
-#Excel #EDA #Amazon #Dashboard #DataAnalysis #CapstoneProject
 
 
