@@ -75,8 +75,6 @@ Analyze Amazon product review data to answer specific business questions using E
 
  - Scatter plots for rating vs. discount percentage.
 
- - KPI cards for key metrics (e.g., highest rated product, most reviews).
-
  - Slicers for interactive filtering by category and price range.
 
 ## Key Insights
