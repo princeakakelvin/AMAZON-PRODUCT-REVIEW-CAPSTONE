@@ -3,9 +3,152 @@ Amazone Product Review Analysis Capstone Project.
 
 ## Project Overview
 
-This project is part of the DSA Data Analysis Capstone. The objective is to analyze Amazon product and customer review data to generate actionable insights for product improvement, marketing, and customer engagement. It contains my exploratory data analysis and dashboard for the Amazon Product Review case study. All analysis was performed in Excel using pivot tables and formulas.
+This project is part of the DSA Data Analysis Capstone, where I serve as a Junior Data Analyst at RetailTech Insights. The goal is to explore and analyze Amazon product and customer review data to generate actionable insights for product improvement, marketing strategies, and customer engagement.
 
-- *Dataset:* 1,465 rows × 16 columns (product details, prices, discounts, ratings, reviews, etc.)
-- *Tools Used:* Microsoft Excel (Pivot Tables, Formulas, Dashboard), GitHub.
+Dataset: 1,465 rows × 16 columns of Amazon product and review data.
 
-- data files
+Tools Used: Microsoft Excel (Pivot Tables, Formulas, Dashboard), GitHub for portfolio hosting.
+
+## Repository Structure
+text
+amazon-product-review-analysis/
+│
+├── Amazon-case-study.xlsx         # Main analysis and dashboard file
+│   ├── dashboard-overview.png
+### Case Study Instruction. 
+
+## Objective:
+Analyze Amazon product review data to answer specific business questions using Excel, and present findings in a dashboard.
+
+### Analysis Tasks
+ 1. Average discount percentage by product category
+
+ 2. Number of products listed under each category
+
+ 3. Total number of reviews per category
+ 4. Products with the highest average ratings
+
+5. Average actual price vs discounted price by category
+
+ 6. Products with the highest number of reviews
+
+ 7. Number of products with a discount of 50% or more
+
+ 8. Distribution of product ratings (e.g., how many products are rated 3.0, 4.0, etc.)
+
+ 9. Total potential revenue (actual_price × rating_count) by category
+
+ 10. Number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500)
+
+ 11. Relationship between rating and level of discount
+
+ 12. Number of products with fewer than 1,000 reviews
+
+ 13. Categories with products having the highest discounts
+
+ 14. Top 5 products in terms of rating and number of reviews combined
+
+ 15. Final Task: Build an Excel dashboard using your cleaned dataset and pivot outputs.
+
+### Analysis Approach.
+##### 1. Data Cleaning
+ - Checked for missing values and inconsistencies.
+
+ - Ensured all numeric columns (prices, discount, ratings, review counts) were properly formatted.
+
+ - Added calculated columns where needed (e.g., discount percentage, potential revenue).
+
+##### 2. Exploratory Data Analysis (EDA)
+ - Used Excel Pivot Tables to summarize data by category, price range, and rating.
+
+ - Created helper columns for combined metrics (e.g., rating × rating count for top products).
+
+ - Used filters and sorting to identify products meeting specific criteria.
+
+##### 3. Visualization & Dashboard
+ - Built a dashboard in Excel featuring:
+
+ - Bar charts for product counts, average discounts, and average ratings by category.
+
+ - Pie/donut charts for review distribution.
+
+ - Scatter plots for rating vs. discount percentage.
+
+ - KPI cards for key metrics (e.g., highest rated product, most reviews).
+
+ - Slicers for interactive filtering by category and price range.
+
+## Key Insights
+Highest Average Discount: [Electronics
+[![p](https://github.com/user-attachments/assets/8729d212-ae92-4ca7-bd89-a761e1b1aeab)](https://github.com/user-attachments/assets/49072d3c-bfd3-46e5-9b13-cf3ea17f043c)
+] with an average discount of 50%
+
+Most Listed Products: [![pp](https://github.com/user-attachments/assets/9af35dde-9c10-4b3e-8980-6209c1538aa7)
+] has the highest number of products.
+
+Most Reviewed Product: [Product Name] with [X] reviews.
+
+Highest Rated Product: [Product Name] with an average rating of [Y].
+
+Products with ≥50% Discount: [Number] products, mostly in [Category].
+
+Potential Revenue: [Category Name] could generate up to ₹[X] in revenue.
+
+Rating vs. Discount: [Brief summary of correlation or lack thereof].
+
+Top 5 Products (Rating × Reviews): [List of product names/IDs].
+
+📊 Dashboard Preview
+(Insert screenshots or thumbnails of your Excel dashboard here, e.g. in a /screenshots folder)
+
+🛠 How to Use This Repository
+Download or clone the repository.
+
+Open Amazon-case-study.xlsx in Microsoft Excel.
+
+Explore the Dashboard sheet for interactive charts and key metrics.
+
+Review the Pivot Table sheets for detailed summaries.
+
+Check the README for documentation and insights.
+
+📚 Methodology Details
+Key Calculated Columns
+Discount Percentage:
+=(actual_price - discounted_price)/actual_price
+
+Potential Revenue:
+=actual_price * rating_count
+
+Combined Score (for top products):
+=rating * rating_count
+
+Price Range Bucket:
+Used Excel's IF or VLOOKUP to assign price bands.
+
+Pivot Table Examples
+Category vs. Average Discount:
+Rows: Category | Values: Average of Discount Percentage
+
+Category vs. Product Count:
+Rows: Category | Values: Count of Product ID
+
+Category vs. Total Reviews:
+Rows: Category | Values: Sum of Rating Count
+
+Rating Distribution:
+Rows: Rating | Values: Count of Product ID
+
+📝 Recommendations
+Focus marketing on categories with high discounts and high ratings.
+
+Investigate categories with low ratings but high review counts for potential improvements.
+
+Leverage top-performing products in promotions.
+
+Monitor the impact of large discounts on ratings to avoid negative perceptions.
+
+🏷 Tags
+#Excel #EDA #Amazon #Dashboard #DataAnalysis #CapstoneProject
+
+
